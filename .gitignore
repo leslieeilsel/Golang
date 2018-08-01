@@ -1,0 +1,3 @@
+# Remove VSCode Project folders
+**/.vscode
+**/.vscode/*
