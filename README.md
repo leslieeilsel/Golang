@@ -1,2 +1,1 @@
-# golang66
-通往golang之路
+# Golang学习笔记
