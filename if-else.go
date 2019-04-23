@@ -3,16 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	for a := 0; a < 10; a++ {
-		fmt.Println(a)
-	}
+	a := 7.0
+	b := 9.0
 
-	b := 0
-	for true {
-		fmt.Println(b)
-		b++
-		if b >= 10 {
-			break
-		}
+	fmt.Println(a, b)
+
+	if a > b {
+		fmt.Println("a > b")
+	} else {
+		fmt.Println("b > a")
 	}
 }
