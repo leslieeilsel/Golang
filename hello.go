@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	car := "BMW"
+	car := "BMW\n"
 	fmt.Printf(car)
 	fmt.Printf("Hello World!")
 }

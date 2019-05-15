@@ -1,17 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-	for a := 0; a < 10; a++ {
-		fmt.Println(a)
+	start := time.Now()
+	for a := 0; a < 10000000000; a++ {
+		//fmt.Println(a)
 	}
-
+	cost := time.Since(start)
+	fmt.Printf("cost=[%s]", cost)
 	b := 0
 	for true {
-		fmt.Println(b)
+		//fmt.Println(b)
 		b++
-		if b >= 10 {
+		if b >= 10000000000 {
 			break
 		}
 	}
